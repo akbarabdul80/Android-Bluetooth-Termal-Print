@@ -19,17 +19,21 @@ class MainActivity : AppCompatActivity() {
                     DataProduct(
                         0,
                         "Keyboard Gaming",
+                        "ready stock red, yellow",
                         500000,
                         12
                     ),
                     DataProduct(
                         0,
                         "Keyboard Gaming",
+                        "Kready stock red, yellow ",
                         500000,
                         12
                     )
                 )
             )
         }
+
+
     }
 }
