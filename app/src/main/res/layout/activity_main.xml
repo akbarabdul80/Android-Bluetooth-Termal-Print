@@ -68,10 +68,12 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:drawablePadding="5dp"
                     android:fontFamily="@font/regular"
                     android:text="@string/foo"
                     android:textAlignment="textEnd"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    app:drawableEndCompat="@drawable/ic_edit" />
             </LinearLayout>
 
             <LinearLayout
@@ -96,10 +98,12 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:drawablePadding="5dp"
                     android:fontFamily="@font/regular"
                     android:text="@string/foo"
                     android:textAlignment="textEnd"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    app:drawableEndCompat="@drawable/ic_edit" />
             </LinearLayout>
 
             <LinearLayout
@@ -126,7 +130,9 @@
                     android:fontFamily="@font/regular"
                     android:text="@string/foo"
                     android:textAlignment="textEnd"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:drawablePadding="5dp"
+                    app:drawableEndCompat="@drawable/ic_edit"/>
             </LinearLayout>
 
             <LinearLayout
@@ -207,9 +213,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/title_null"
+            app:elevation="1dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:elevation="1dp"
             app:srcCompat="@drawable/ic_add" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
