@@ -45,7 +45,6 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/bold"
                         android:text="@string/foo"
-                        android:textColor="@color/colorSecondary"
                         android:textStyle="bold" />
 
 
@@ -57,6 +56,26 @@
                         android:text="@string/foo" />
 
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/tvPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bold"
+                        android:text="@string/foo"
+                        android:textColor="@color/colorSecondary"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
