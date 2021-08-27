@@ -1,6 +1,7 @@
 package com.zero.bluetoothtermalprint.ui.main
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.oratakashi.viewbinding.core.binding.activity.viewBinding
 import com.oratakashi.viewbinding.core.tools.onClick
@@ -37,6 +38,8 @@ class MainActivity : AppCompatActivity() {
                         )
                     )
                 )
+
+                val data = App.repoProduct.getAll()
             }
 
             fabProduct.onClick {
