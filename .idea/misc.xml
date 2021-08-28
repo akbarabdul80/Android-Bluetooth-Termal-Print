@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Project/BluetoothTermalPrint/app/src/main/res/layout/activity_device.xml" value="0.36666666666666664" />
         <entry key="..\:/Project/BluetoothTermalPrint/app/src/main/res/layout/activity_main.xml" value="0.26268115942028986" />
         <entry key="..\:/Project/BluetoothTermalPrint/app/src/main/res/layout/activity_product.xml" value="0.35260416666666666" />
+        <entry key="..\:/Project/BluetoothTermalPrint/app/src/main/res/layout/device_name.xml" value="0.36666666666666664" />
         <entry key="..\:/Project/BluetoothTermalPrint/app/src/main/res/layout/fragment_fab_bottom.xml" value="0.36666666666666664" />
         <entry key="..\:/Project/BluetoothTermalPrint/app/src/main/res/layout/fragment_product.xml" value="0.36666666666666664" />
         <entry key="..\:/Project/BluetoothTermalPrint/app/src/main/res/layout/list_product.xml" value="0.26268115942028986" />

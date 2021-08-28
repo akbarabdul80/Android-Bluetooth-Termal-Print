@@ -6,7 +6,7 @@ import android.util.Log
 import com.zero.bluetoothtermalprint.BuildConfig
 import com.zj.btsdk.BluetoothService
 
-class PrinterHandler(val interfaces: PrinterInterface.Connection) : Handler() {
+class PrinterHandler(private val interfaces: PrinterInterface) : Handler() {
 
     override fun handleMessage(msg: Message) {
         when (msg.what) {

@@ -23,4 +23,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_product">Product</string>
+    <string name="title_perangkat_terpasang">Perangkat Terpasang</string>
+    <string name="title_perangkat_lain_tersedia">Perangkat Lain Tersedia</string>
+    <string name="title_cari_perangkat">Cari Perangkat</string>
 </resources>

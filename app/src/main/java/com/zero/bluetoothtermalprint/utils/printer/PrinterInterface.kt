@@ -1,13 +1,11 @@
 package com.zero.bluetoothtermalprint.utils.printer
 
 interface PrinterInterface {
-    interface Connection{
-        fun onDeviceConnected()
+    fun onDeviceConnected()
 
-        fun onDeviceConnecting()
+    fun onDeviceConnecting()
 
-        fun onDeviceConnectionLost()
+    fun onDeviceConnectionLost()
 
-        fun onDeviceUnableToConnect()
-    }
+    fun onDeviceUnableToConnect()
 }

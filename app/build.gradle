@@ -61,4 +61,7 @@ dependencies {
 
     //ViewBinding
     implementation 'com.oratakashi:AndroidViewBinding:3.6'
+
+    //Easy Permissions
+    implementation 'pub.devrel:easypermissions:3.0.0'
 }
