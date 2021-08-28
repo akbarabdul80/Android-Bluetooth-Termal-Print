@@ -3,6 +3,7 @@ package com.zero.bluetoothtermalprint.root
 import android.app.Application
 import com.zero.bluetoothtermalprint.data.db.RoomDB
 import com.zero.bluetoothtermalprint.data.db.repo.ProductRepo
+import com.zero.bluetoothtermalprint.data.db.session.Sessions
 
 class App : Application() {
     companion object {

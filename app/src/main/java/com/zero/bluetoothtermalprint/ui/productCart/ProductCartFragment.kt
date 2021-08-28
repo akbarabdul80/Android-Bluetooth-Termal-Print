@@ -1,4 +1,4 @@
-package com.zero.bluetoothtermalprint.ui.product
+package com.zero.bluetoothtermalprint.ui.productCart
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,7 +13,7 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
 
-class ProductFragment : BottomSheetDialogFragment() {
+class ProductCartFragment : BottomSheetDialogFragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -28,12 +28,12 @@ class ProductFragment : BottomSheetDialogFragment() {
 
         with(binding) {
             rvData.also {
-                it.adapter = adapter
+                it.adapter = cartAdapter
                 it.layoutManager = LinearLayoutManager(requireContext())
             }
 
             GlobalScope.launch {
-                adapter.submitData(App.repoProduct.getAll())
+                cartAdapter.submitData(App.repoProduct.getAll())
             }
         }
 
@@ -41,7 +41,7 @@ class ProductFragment : BottomSheetDialogFragment() {
     }
 
     private val binding: FragmentProductBinding by viewBinding()
-    private val adapter: ProductAdapter by lazy {
-        ProductAdapter()
+    private val cartAdapter: ProductCartAdapter by lazy {
+        ProductCartAdapter()
     }
 }

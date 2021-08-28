@@ -231,9 +231,9 @@
             android:hint="@string/title_print"
             android:textColorHint="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/fab"
+            app:layout_constraintEnd_toStartOf="@+id/fabProduct"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/fab" />
+            app:layout_constraintTop_toTopOf="@+id/fabProduct" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fabProduct"
